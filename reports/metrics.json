@@ -1,0 +1,88 @@
+{
+  "dataset": "UCI Adult (1994 US Census extract), train + test",
+  "people": 48842,
+  "tables": 55,
+  "k": 11,
+  "cells": 5470,
+  "nonzero_cells": 4640,
+  "suppressed_cells": 1733,
+  "recovered_cells": 216,
+  "recovered_share": 0.12463935372186959,
+  "tables_with_recovery": 39,
+  "people_in_recovered_cells": 953,
+  "complementary_hidden_cells": 1943,
+  "complementary_extra_cells": 210,
+  "complementary_recovered_cells": 0,
+  "hidden_share_primary": 0.3734913793103448,
+  "hidden_share_complementary": 0.41875,
+  "lp_median_width_after_complementary": 13.0,
+  "lp_small_cells_still_narrow": 314,
+  "k_sweep": [
+    {
+      "k": 3,
+      "suppressed": 723,
+      "recovered": 190,
+      "recovered_share": 0.2627939142461964
+    },
+    {
+      "k": 5,
+      "suppressed": 1108,
+      "recovered": 184,
+      "recovered_share": 0.16606498194945848
+    },
+    {
+      "k": 11,
+      "suppressed": 1733,
+      "recovered": 216,
+      "recovered_share": 0.12463935372186959
+    },
+    {
+      "k": 20,
+      "suppressed": 2173,
+      "recovered": 205,
+      "recovered_share": 0.09433962264150944
+    }
+  ],
+  "dp": [
+    {
+      "epsilon": 0.1,
+      "mean_abs_error": 7.9953784277879345,
+      "p95_abs_error": 26.0,
+      "median_rel_error_cells_ge_k": 0.04885057471264368,
+      "small_cells_within_2": 0.38628967109059437,
+      "p_attacker_guess_exact": 0.04995837495787997
+    },
+    {
+      "epsilon": 0.25,
+      "mean_abs_error": 3.3332285191956124,
+      "p95_abs_error": 11.0,
+      "median_rel_error_cells_ge_k": 0.018115942028985508,
+      "small_cells_within_2": 0.5827813040969417,
+      "p_attacker_guess_exact": 0.12435300177159621
+    },
+    {
+      "epsilon": 0.5,
+      "mean_abs_error": 1.692585009140768,
+      "p95_abs_error": 5.0,
+      "median_rel_error_cells_ge_k": 0.0064516129032258064,
+      "small_cells_within_2": 0.779065204847086,
+      "p_attacker_guess_exact": 0.24491866240370913
+    },
+    {
+      "epsilon": 1.0,
+      "mean_abs_error": 0.7689433272394881,
+      "p95_abs_error": 3.0,
+      "median_rel_error_cells_ge_k": 0.0004158004158004158,
+      "small_cells_within_2": 0.9426197345643393,
+      "p_attacker_guess_exact": 0.46211715726000974
+    },
+    {
+      "epsilon": 2.0,
+      "mean_abs_error": 0.25346252285191956,
+      "p95_abs_error": 1.0,
+      "median_rel_error_cells_ge_k": 0.0,
+      "small_cells_within_2": 0.9969763416041546,
+      "p_attacker_guess_exact": 0.7615941559557649
+    }
+  ]
+}
