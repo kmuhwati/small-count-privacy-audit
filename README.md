@@ -2,6 +2,8 @@
 
 **Live demo: [kmuhwati.github.io/small-count-privacy-audit](https://kmuhwati.github.io/small-count-privacy-audit/)**
 
+[![Live demo](web/public/og-image.png)](https://kmuhwati.github.io/small-count-privacy-audit/)
+
 ![tests](https://img.shields.io/badge/tests-7%20Python%20%2B%2010%20JS%20passing-2a78d6) ![python](https://img.shields.io/badge/python-3.12-2a78d6) ![web](https://img.shields.io/badge/demo-React%20%2B%20Vite-1baf7a) ![hosting](https://img.shields.io/badge/hosted%20on-GitHub%20Pages-555)
 
 Health agencies and statistics offices publish count tables with the small cells blanked out. The US Centers for Medicare & Medicaid Services, for example, hides any count from 1 to 10. The idea is that nobody can single out a person in a group that small. But the same tables also publish row and column totals, and a hidden cell that is the only blank in its row equals the row total minus the visible cells. This project measures how often that happens on real census data, tests the standard fix (complementary suppression), and compares both with differential privacy.
