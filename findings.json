@@ -1,0 +1,12 @@
+{
+  "people": 48842,
+  "tables": 55,
+  "k": 11,
+  "suppressed_cells": 1733,
+  "recovered_cells": 216,
+  "recovered_share": 0.12463935372186959,
+  "tables_with_recovery": 39,
+  "people_in_recovered_cells": 953,
+  "complementary_extra_cells": 210,
+  "lp_small_cells_still_narrow": 314
+}
